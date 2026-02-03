@@ -9,19 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/images/gamedo-logo.png">
+    <link rel="icon" type="image/png" href="assets/images/gamedo-logo-transparent.png">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">
-                <img src="assets/images/gamedo-logo.png" alt="GameDō Studio">
+                <img src="assets/images/gamedo-logo-transparent.png" alt="GameDō Studio">
             </a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#games">Games</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -30,7 +31,7 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <img src="assets/images/gamedo-logo.png" alt="GameDō Studio" class="hero-logo">
+            <img src="assets/images/gamedo-logo-transparent.png" alt="GameDō Studio" class="hero-logo">
             <p class="hero-tagline">The Way of Games</p>
             <p class="hero-description">Crafting unique gaming experiences with passion and precision</p>
             <a href="#games" class="cta-button">Explore Our Games</a>
@@ -125,6 +126,25 @@
         </div>
     </section>
 
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="section-header">
+            <h2>The Team</h2>
+            <div class="brush-underline"></div>
+        </div>
+        <div class="team-content">
+            <a href="https://florianhuet.github.io" class="team-member">
+                <div class="member-photo">
+                    <img src="assets/images/florian-huet.png" alt="Florian Huet">
+                </div>
+                <h4 class="member-name">Florian Huet</h4>
+                <p class="member-role">Founder & Lead Developer</p>
+                <p class="member-bio">Game developer passionate about creating unique interactive experiences. Unity3D certified programmer with expertise in mobile and indie game development.</p>
+                <span class="member-link">View Portfolio</span>
+            </a>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="section-header light">
@@ -151,7 +171,9 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <img src="assets/images/gamedo-logo.png" alt="GameDō Studio" class="footer-logo">
+            <div class="footer-logo">
+                <img src="assets/images/gamedo-logo-transparent.png" alt="GameDō Studio">
+            </div>
             <p>&copy; 2024 GameDō Studio. All rights reserved.</p>
         </div>
     </footer>
